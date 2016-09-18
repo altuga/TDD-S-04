@@ -38,7 +38,7 @@ public class StringHesapMakinasiTest {
 		try {
 		checkAdd("-3,2,-23,5", 0);
 		} catch (Exception e) {
-			assertEquals("Negatives Not Allowed: -3,-23",
+			assertEquals("Negatives Sayilara izin vermiyoruz: -3,-23",
 					e.getMessage());
 		}
 	}
